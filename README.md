@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Unit Converter App
 
-## Getting Started
+A responsive and interactive **Unit Converter** built with **Next.js**, **TypeScript**, and **Tailwind CSS**. This web app allows users to convert between various measurement units quickly and efficiently. It was created as part of the GSIT learning milestone.
 
-First, run the development server:
+## 🔗 Live Demo
+
+[View Live App](https://gsit-unit-convertor.vercel.app/)  
+*(Replace the URL if hosted elsewhere)*
+
+---
+
+## 🚀 Features
+
+- 🔄 **Real-time Unit Conversion**
+  - Convert instantly between units as you type
+
+- 📏 **Supported Categories**
+  - Length: Meter, Kilometer, Mile, Foot
+  - Weight: Gram, Kilogram, Pound, Ounce
+  - Temperature: Celsius, Fahrenheit, Kelvin
+
+- 🎯 **User-Friendly Interface**
+  - Clean and minimal design using Tailwind CSS
+  - Responsive layout for all screen sizes
+
+- ⚙️ **Built with Modern Stack**
+  - Fully powered by **Next.js** and **TypeScript**
+  - Fast, SEO-friendly, and maintainable
+
+---
+
+## 🛠️ Tech Stack
+
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+---
+
+---
+
+## 📦 Installation & Running Locally
 
 ```bash
+# Clone the repository
+git clone https://github.com/faraz141/gsit-unit-convertor.git
+cd gsit-unit-convertor
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
